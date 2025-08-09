@@ -23,6 +23,13 @@ export default defineConfig({
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'VuePress', link: 'https://vitepress.vuejs.org' }
         ]
+      },
+      {
+        text: '运维',
+        items: [
+          { text: 'pve导入cloud-image创建虚拟机', link: '/ops/pve导入cloud-image创建虚拟机/pve导入cloud-image创建虚拟机' },
+          { text: 'NodeJS学习', link: '/ops/NodeJS学习/NodeJS学习' }
+        ]
       }
     ],
 
@@ -45,6 +52,7 @@ export default defineConfig({
         text: '运维',
         items: [
           { text: 'pve导入cloud-image创建虚拟机', link: '/ops/pve导入cloud-image创建虚拟机/pve导入cloud-image创建虚拟机' },
+          { text: 'NodeJS学习', link: '/ops/NodeJS学习/NodeJS学习' },
         ]
       }
     ],
