@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  base: "/docs-demo/",
+  head: [["link", { rel: "icon", href: "/docs-demo/logo.png" }]],
   title: "半步的博客",
   description: "学习记录",
   themeConfig: {
